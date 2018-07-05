@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{D170F402-4E08-42CA-B75C-6B181B0C707E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MatchSetUpActivity.cs">
+    <Files>
+      <File FileName="Droid/Resources/values/Strings.xml" Line="34" Column="25" />
+      <File FileName="Droid/MatchSetUpActivity.cs" Line="32" Column="35" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DartScorer" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DartScorer.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sandy/DartScorer/Droid/MatchSetUpActivity.cs" relfile="Droid/MatchSetUpActivity.cs" line="41" column="77" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DartScorer.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CEDAED0C-C9D5-4662-8963-777D27FE99A6">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.DartScorer.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,9 @@
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/DartScorerTest.dll
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/DartScorerTest.pdb
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/DartScorer.dll
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/nunit.framework.dll
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/DartScorer.pdb
+/Users/sandy/DartScorer/DartScorerTest/bin/Debug/nunit.framework.xml
+/Users/sandy/DartScorer/DartScorerTest/obj/Debug/DartScorerTests.csproj.CoreCompileInputs.cache
+/Users/sandy/DartScorer/DartScorerTest/obj/Debug/DartScorerTest.dll
+/Users/sandy/DartScorer/DartScorerTest/obj/Debug/DartScorerTest.pdb

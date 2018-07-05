@@ -1,0 +1,3 @@
+DartScorer.Droid.MatchSetUpActivity, DartScorer.Droid;md5cef208913833fc002b9185b0c864e29f.MatchSetUpActivity
+DartScorer.Droid.MatchSetUpActivity;md5cef208913833fc002b9185b0c864e29f.MatchSetUpActivity
+dartscorer.droid.MatchSetUpActivity;md5cef208913833fc002b9185b0c864e29f.MatchSetUpActivity

@@ -1,0 +1,14 @@
+/Users/sandy/DartScorer/iOS/bin/iPhoneSimulator/Debug/DartScorer.iOS.exe
+/Users/sandy/DartScorer/iOS/bin/iPhoneSimulator/Debug/DartScorer.iOS.pdb
+/Users/sandy/DartScorer/iOS/bin/iPhoneSimulator/Debug/DartScorer.dll
+/Users/sandy/DartScorer/iOS/bin/iPhoneSimulator/Debug/DartScorer.pdb
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/DartScorer.iOS.csprojResolveAssemblyReference.cache
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/DartScorer.iOS.csproj.CoreCompileInputs.cache
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/DartScorer.iOS.exe
+/Users/sandy/DartScorer/iOS/obj/iPhoneSimulator/Debug/DartScorer.iOS.pdb
