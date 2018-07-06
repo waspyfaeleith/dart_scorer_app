@@ -36,7 +36,7 @@ namespace DartScorer
         }
 
         public Player() {
-            
+            this.scores = new List<int>();
         }
 
         public Player(String name, int startScore)

@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{D170F402-4E08-42CA-B75C-6B181B0C707E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DartScorer/Throw.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/PlayMatchActivity.cs">
     <Files>
       <File FileName="Droid/Resources/values/Strings.xml" Line="28" Column="23" />
-      <File FileName="Droid/MatchSetUpActivity.cs" Line="127" Column="1" />
-      <File FileName="Droid/PlayMatchActivity.cs" Line="28" Column="1" />
-      <File FileName="DartScorer/Match.cs" Line="24" Column="1" />
-      <File FileName="DartScorer/Game.cs" Line="47" Column="13" />
-      <File FileName="DartScorer/Player.cs" Line="39" Column="13" />
+      <File FileName="Droid/MatchSetUpActivity.cs" Line="57" Column="15" />
+      <File FileName="Droid/PlayMatchActivity.cs" Line="96" Column="1" />
+      <File FileName="DartScorer/Match.cs" Line="33" Column="1" />
+      <File FileName="DartScorer/Game.cs" Line="30" Column="44" />
+      <File FileName="DartScorer/Player.cs" Line="39" Column="43" />
       <File FileName="DartScorer/Throw.cs" Line="15" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -14,12 +14,10 @@
   <MonoDevelop.Ide.ItemProperties.DartScorer.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_7_2012_API_25" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="35" column="1" />
-      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="25" column="1" />
-      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="26" column="1" />
-      <Breakpoint file="/Users/sandy/DartScorer/DartScorer/Match.cs" relfile="DartScorer/Match.cs" line="28" column="1" />
-      <Breakpoint file="/Users/sandy/DartScorer/DartScorer/Match.cs" relfile="DartScorer/Match.cs" line="23" column="1" />
-      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="18" column="1" />
+      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="134" column="1" />
+      <Breakpoint file="/Users/sandy/DartScorer/DartScorer/Match.cs" relfile="DartScorer/Match.cs" line="33" column="1" />
+      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="96" column="1" />
+      <Breakpoint file="/Users/sandy/DartScorer/Droid/PlayMatchActivity.cs" relfile="Droid/PlayMatchActivity.cs" line="81" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -68,9 +68,27 @@ namespace DartScorer.Droid
             player1NameText.Text = this.match.Game.Player1.Name;
             player2NameText.Text = this.match.Game.Player2.Name;
 
+            enterScoreButton.Click += delegate {
+                this.enterScoreButtonClick();
+            };
+
             this.updateTextViews();
             context = this;
             this.message = match.Game.Thrower.Name + " to throw";
+        }
+
+        private void enterScoreButtonClick() {
+            String enteredScore = !String.IsNullOrEmpty(enterScoreText.Text) ? enterScoreText.Text : "";
+            if (!String.IsNullOrEmpty(enteredScore))
+            {
+                int score = int.Parse(enteredScore);
+    
+                if (!match.MatchWon())
+                {
+                    match.ProcessScore(score);
+                }
+                updateTextViews();
+            }
         }
 
         private void updateTextViews()

@@ -95,10 +95,10 @@ namespace DartScorer
             this.legThrower = game.Thrower;
         }
 
-        private void Turn(Player player)
+        private void Turn(Player player, int score)
         {
 
-            Throw playerThrow = new Throw(0);
+            Throw playerThrow = new Throw(score);
 
             player.ThrowDarts(playerThrow);
         }
@@ -129,7 +129,7 @@ namespace DartScorer
         {
             while (!game.IsWon())
             {
-                this.Turn(game.Thrower);
+                //this.Turn(game.Thrower);
                 this.game.ChangeThrower();
             }
         }
@@ -154,6 +154,34 @@ namespace DartScorer
             {
                 // TODO: game shot and the LEG
                 this.NewLeg();
+            }
+        }
+
+        public void ProcessScore(int score)
+        {
+            if (!MatchWon())
+            {
+                if (!game.IsWon())
+                {
+                    this.Turn(game.Thrower, score);
+                    //this.game.changeThrower();
+                    if (game.IsWon())
+                    {
+                        LegWon();
+                    }
+                    else
+                    {
+                        //this.game.changeThrower();
+                        if (game.Thrower.IsOnAFinish())
+                        {
+                            //TODO: set up '... you require ...'
+                        }
+                        else
+                        {
+                            //TODO: set up '... to throw"
+                        }
+                    }
+                }
             }
         }
     }
