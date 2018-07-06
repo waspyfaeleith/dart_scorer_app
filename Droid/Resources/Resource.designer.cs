@@ -90,23 +90,14 @@ namespace DartScorer.Droid
 			// aapt resource value: 0x7f060000
 			public const int myButton = 2131099648;
 			
-			// aapt resource value: 0x7f06000d
-			public const int player1_legs = 2131099661;
-			
-			// aapt resource value: 0x7f06000b
-			public const int player1_sets = 2131099659;
-			
 			// aapt resource value: 0x7f060008
 			public const int player1_text_edit = 2131099656;
 			
-			// aapt resource value: 0x7f06000e
-			public const int player2_legs = 2131099662;
-			
-			// aapt resource value: 0x7f06000c
-			public const int player2_sets = 2131099660;
-			
 			// aapt resource value: 0x7f060009
 			public const int player2_text_edit = 2131099657;
+			
+			// aapt resource value: 0x7f06000d
+			public const int player_1_legs = 2131099661;
 			
 			// aapt resource value: 0x7f06000f
 			public const int player_1_name = 2131099663;
@@ -114,11 +105,20 @@ namespace DartScorer.Droid
 			// aapt resource value: 0x7f060010
 			public const int player_1_score = 2131099664;
 			
+			// aapt resource value: 0x7f06000b
+			public const int player_1_sets = 2131099659;
+			
+			// aapt resource value: 0x7f06000e
+			public const int player_2_legs = 2131099662;
+			
 			// aapt resource value: 0x7f060011
 			public const int player_2_name = 2131099665;
 			
 			// aapt resource value: 0x7f060012
 			public const int player_2_score = 2131099666;
+			
+			// aapt resource value: 0x7f06000c
+			public const int player_2_sets = 2131099660;
 			
 			// aapt resource value: 0x7f060016
 			public const int score_entry = 2131099670;

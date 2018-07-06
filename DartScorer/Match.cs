@@ -19,6 +19,11 @@ namespace DartScorer
             set { this.game = value; }
         }
 
+        public List<Player> Players
+        {
+            get { return this.players; }
+        }
+
         public Match() {
             
         }

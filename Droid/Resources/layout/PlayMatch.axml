@@ -13,7 +13,7 @@
             android:layout_gravity="center_horizontal"
             android:orientation="horizontal">
             <TextView
-                android:id="@+id/player1_sets"
+                android:id="@+id/player_1_sets"
                 android:textSize="30dp"
                 android:layout_marginRight="10dp"
                 android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
                 android:textSize="30dp"
                 android:text="@string/set_score" />
             <TextView
-                android:id="@+id/player2_sets"
+                android:id="@+id/player_2_sets"
                 android:textSize="30dp"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
             <TextView
-                android:id="@+id/player1_legs"
+                android:id="@+id/player_1_legs"
                 android:textSize="30dp"
                 android:layout_marginRight="10dp"
                 android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
                 android:textSize="30dp"
                 android:text="@string/leg_score" />
             <TextView
-                android:id="@+id/player2_legs"
+                android:id="@+id/player_2_legs"
                 android:textSize="30dp"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
