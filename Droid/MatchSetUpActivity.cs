@@ -9,10 +9,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 
 namespace DartScorer.Droid
 {
-    [Activity(Label = "MatchSetUpActivity" , MainLauncher = true)]
+    [Activity(Label = "Match Details" , MainLauncher = true)]
     public class MatchSetUpActivity : Activity
     {
         int numSets;
@@ -111,6 +112,10 @@ namespace DartScorer.Droid
 
             match = new Match(player1Name, player2Name, numSets, numLegsPerSet, startScore);
             Toast.MakeText(this, matchDetails(), ToastLength.Long).Show();
+            var intent = new Intent(this, typeof(PlayMatchActivity));
+            Bundle bundle = new Bundle();
+            intent.PutExtra("matchDetails", JsonConvert.SerializeObject(match));
+            StartActivity(intent);
         }
 
         private string matchDetails()

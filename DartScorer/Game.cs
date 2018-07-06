@@ -15,16 +15,19 @@ namespace DartScorer
         public int StartScore
         {
             get { return this.startScore; }
+            set { this.startScore = value;  }
         }
 
         public int Sets
         {
             get { return this.sets; }
+            set { this.sets = value; }
         }
 
         public int LegsPerSet
         {
             get { return this.legsPerSet; }
+            set { this.legsPerSet = value; }
         }
 
         public Player Thrower
@@ -36,11 +39,17 @@ namespace DartScorer
         public Player Player1
         {
             get { return this.player1; }
+            set { this.player1 = value;  }
         }
 
         public Player Player2
         {
             get { return this.player2; }
+            set { this.player2 = value; }
+        }
+
+        public Game() {
+            
         }
 
         public Game(int startScore, List<Player> players, int sets, int legsPerSet)

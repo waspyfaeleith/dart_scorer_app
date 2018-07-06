@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "DartScorer.Droid.dll" comes first in this list. */
 		"DartScorer.Droid.dll",
 		"DartScorer.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

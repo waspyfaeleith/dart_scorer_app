@@ -53,7 +53,7 @@ namespace DartScorer.Droid
 			public const int game_on_button = 2130771986;
 			
 			// aapt resource value: 0x7F010006
-			public const int legsPerSetChosen = 2130771974;
+			public const int legs_per_set_chosen = 2130771974;
 			
 			// aapt resource value: 0x7F010007
 			public const int legs_per_set_spinner = 2130771975;
@@ -68,13 +68,13 @@ namespace DartScorer.Droid
 			public const int player2_text_edit = 2130771985;
 			
 			// aapt resource value: 0x7F010004
-			public const int setsChosen = 2130771972;
+			public const int sets_chosen = 2130771972;
 			
 			// aapt resource value: 0x7F010005
 			public const int sets_spinner = 2130771973;
 			
 			// aapt resource value: 0x7F010008
-			public const int startScoreChosen = 2130771976;
+			public const int start_score_chosen = 2130771976;
 			
 			// aapt resource value: 0x7F010009
 			public const int start_score_spinner = 2130771977;
@@ -100,6 +100,9 @@ namespace DartScorer.Droid
 			
 			// aapt resource value: 0x7F020003
 			public const int MatchSetUp = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int PlayMatch = 2130837508;
 			
 			static Layout()
 			{

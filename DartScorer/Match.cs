@@ -16,6 +16,11 @@ namespace DartScorer
         public Game Game
         {
             get { return this.game; }
+            set { this.game = value; }
+        }
+
+        public Match() {
+            
         }
 
         public Match(String player1Name, String player2Name, int sets, int legsPerSet, int startScore)

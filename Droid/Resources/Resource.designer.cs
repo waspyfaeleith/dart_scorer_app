@@ -66,6 +66,9 @@ namespace DartScorer.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060017
+			public const int enter_score_btn = 2131099671;
+			
 			// aapt resource value: 0x7f06000a
 			public const int game_on_button = 2131099658;
 			
@@ -75,14 +78,50 @@ namespace DartScorer.Droid
 			// aapt resource value: 0x7f060005
 			public const int legs_per_set_spinner = 2131099653;
 			
+			// aapt resource value: 0x7f060013
+			public const int message = 2131099667;
+			
+			// aapt resource value: 0x7f060014
+			public const int message_thrower = 2131099668;
+			
+			// aapt resource value: 0x7f060015
+			public const int message_winner = 2131099669;
+			
 			// aapt resource value: 0x7f060000
 			public const int myButton = 2131099648;
+			
+			// aapt resource value: 0x7f06000d
+			public const int player1_legs = 2131099661;
+			
+			// aapt resource value: 0x7f06000b
+			public const int player1_sets = 2131099659;
 			
 			// aapt resource value: 0x7f060008
 			public const int player1_text_edit = 2131099656;
 			
+			// aapt resource value: 0x7f06000e
+			public const int player2_legs = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int player2_sets = 2131099660;
+			
 			// aapt resource value: 0x7f060009
 			public const int player2_text_edit = 2131099657;
+			
+			// aapt resource value: 0x7f06000f
+			public const int player_1_name = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int player_1_score = 2131099664;
+			
+			// aapt resource value: 0x7f060011
+			public const int player_2_name = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int player_2_score = 2131099666;
+			
+			// aapt resource value: 0x7f060016
+			public const int score_entry = 2131099670;
 			
 			// aapt resource value: 0x7f060002
 			public const int sets_chosen = 2131099650;
@@ -117,6 +156,9 @@ namespace DartScorer.Droid
 			
 			// aapt resource value: 0x7f030001
 			public const int MatchSetUp = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int PlayMatch = 2130903042;
 			
 			static Layout()
 			{

@@ -35,6 +35,10 @@ namespace DartScorer
             set { this.setsWon = value; }
         }
 
+        public Player() {
+            
+        }
+
         public Player(String name, int startScore)
         {
             this.name = name;

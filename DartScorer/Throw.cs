@@ -11,6 +11,10 @@ namespace DartScorer
             set { this.score = value; }
         }
 
+        public Throw() {
+            
+        }
+
         public Throw(int score)
         {
             this.score = score;

@@ -20,6 +20,9 @@
 /Users/sandy/DartScorer/Droid/obj/Debug/R.cs.flag
 /Users/sandy/DartScorer/Droid/obj/Debug/R.txt
 /Users/sandy/DartScorer/Droid/obj/Debug/uploadflags.txt
+/Users/sandy/DartScorer/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/sandy/DartScorer/Droid/bin/Debug/Newtonsoft.Json.xml
+/Users/sandy/DartScorer/Droid/obj/Debug/res/layout/playmatch.xml
 /Users/sandy/DartScorer/Droid/bin/Debug/Mono.Android.pdb
 /Users/sandy/DartScorer/Droid/obj/Debug/linksrc/DartScorer.Droid.pdb
 /Users/sandy/DartScorer/Droid/obj/Debug/linksrc/DartScorer.pdb
