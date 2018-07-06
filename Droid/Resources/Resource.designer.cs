@@ -70,7 +70,7 @@ namespace DartScorer.Droid
 			public const int game_on_button = 2131099658;
 			
 			// aapt resource value: 0x7f060004
-			public const int legsPerSetChosen = 2131099652;
+			public const int legs_per_set_chosen = 2131099652;
 			
 			// aapt resource value: 0x7f060005
 			public const int legs_per_set_spinner = 2131099653;
@@ -85,13 +85,13 @@ namespace DartScorer.Droid
 			public const int player2_text_edit = 2131099657;
 			
 			// aapt resource value: 0x7f060002
-			public const int setsChosen = 2131099650;
+			public const int sets_chosen = 2131099650;
 			
 			// aapt resource value: 0x7f060003
 			public const int sets_spinner = 2131099651;
 			
 			// aapt resource value: 0x7f060006
-			public const int startScoreChosen = 2131099654;
+			public const int start_score_chosen = 2131099654;
 			
 			// aapt resource value: 0x7f060007
 			public const int start_score_spinner = 2131099655;

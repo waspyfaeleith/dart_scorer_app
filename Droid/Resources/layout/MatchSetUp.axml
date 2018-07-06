@@ -15,7 +15,7 @@
             android:layout_marginTop="20dp"
             android:id="@+id/textView" />
         <TextView
-            android:id="@+id/setsChosen"
+            android:id="@+id/sets_chosen"
             android:layout_width="50dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="@string/legs_per_set" />
         <TextView
-            android:id="@+id/legsPerSetChosen"
+            android:id="@+id/legs_per_set_chosen"
             android:layout_width="50dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:text="@string/start_score" />
         <TextView
-            android:id="@+id/startScoreChosen"
+            android:id="@+id/start_score_chosen"
             android:layout_width="50dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"

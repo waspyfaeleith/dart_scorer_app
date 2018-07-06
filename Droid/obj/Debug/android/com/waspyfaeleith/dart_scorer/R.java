@@ -17,14 +17,14 @@ public final class R {
     }
     public static final class id {
         public static final int game_on_button=0x7f06000a;
-        public static final int legsPerSetChosen=0x7f060004;
+        public static final int legs_per_set_chosen=0x7f060004;
         public static final int legs_per_set_spinner=0x7f060005;
         public static final int myButton=0x7f060000;
         public static final int player1_text_edit=0x7f060008;
         public static final int player2_text_edit=0x7f060009;
-        public static final int setsChosen=0x7f060002;
+        public static final int sets_chosen=0x7f060002;
         public static final int sets_spinner=0x7f060003;
-        public static final int startScoreChosen=0x7f060006;
+        public static final int start_score_chosen=0x7f060006;
         public static final int start_score_spinner=0x7f060007;
         public static final int textView=0x7f060001;
     }

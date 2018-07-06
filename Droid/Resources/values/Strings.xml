@@ -25,6 +25,7 @@
     <string-array name="legs_per_set_array">  
         <item>1</item>  
         <item>3</item>
+        <item>5</item>
     </string-array>
     <string-array name="start_score_array">  
         <item>101</item>  

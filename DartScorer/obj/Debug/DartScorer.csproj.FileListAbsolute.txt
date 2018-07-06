@@ -3,3 +3,4 @@
 /Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.csproj.CoreCompileInputs.cache
 /Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.dll
 /Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.pdb
+/Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.csprojResolveAssemblyReference.cache
