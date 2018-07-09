@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace DartScorer
 {
@@ -20,21 +21,59 @@ namespace DartScorer
             set { this.game = value; }
         }
 
+        public int LegsPerSet
+        {
+            get { return this.legsPerSet; }
+            set { this.legsPerSet = value; }
+        }
+
+        public int Sets 
+        {
+            get { return this.sets; }
+            set { this.sets = value; }
+        }
+
+        public Player LegThrower
+        {
+            get { return this.legThrower; }
+            set { this.legThrower = value; }
+        }
+
+        public Player SetThrower
+        {
+            get { return this.setThrower; }
+            set { this.setThrower = value; }
+        }
+
+        public int StartScore
+        {
+            get { return this.startScore; }
+            set { this.startScore = value; }
+        }
+
         //public List<Player> Players
         //{
         //    get { return this.players; }
         //}
 
-        public Match() 
-        {
-            //this.players = new List<Player>();
-        }
+        //public Match() 
+        //{
+        //    //this.players = new List<Player>();
+        //}
+
+
+        //public Match(Game game)
+        //{
+        //    //this.players = new List<Player>();
+        //    this.game = game;
+        //}
 
         public String Message 
         {
             get { return this.message;  }    
         }
 
+        [JsonConstructor]
         public Match(String player1Name, String player2Name, int sets, int legsPerSet, int startScore)
         {
             Player player1 = new Player(player1Name, startScore);
@@ -60,13 +99,18 @@ namespace DartScorer
 
         public int LegsNeededToWinSet()
         {
+            //int x = this.legsPerSet / 2;
+            //int y = x + 1;
+            //return y;
+
             return (this.legsPerSet / 2) + 1;
         }
 
         public bool SetWon()
         {
-            if ((game.Player1.LegsWon == this.LegsNeededToWinSet()) ||
-                    (game.Player2.LegsWon == this.LegsNeededToWinSet()))
+            //if ((game.Player1.LegsWon == this.LegsNeededToWinSet()) ||
+                    //(game.Player2.LegsWon == this.LegsNeededToWinSet()))
+            if (game.Winner().LegsWon == this.LegsNeededToWinSet())
             {
                 game.Winner().SetsWon++;
                 return true;

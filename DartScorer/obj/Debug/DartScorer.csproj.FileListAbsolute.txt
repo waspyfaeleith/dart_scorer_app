@@ -3,3 +3,6 @@
 /Users/sandy/DartScorer/DartScorer/bin/Debug/DartScorer.pdb
 /Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.dll
 /Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.pdb
+/Users/sandy/DartScorer/DartScorer/bin/Debug/Newtonsoft.Json.dll
+/Users/sandy/DartScorer/DartScorer/bin/Debug/Newtonsoft.Json.xml
+/Users/sandy/DartScorer/DartScorer/obj/Debug/DartScorer.csprojResolveAssemblyReference.cache

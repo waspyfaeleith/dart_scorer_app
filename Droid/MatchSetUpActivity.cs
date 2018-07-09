@@ -89,19 +89,19 @@ namespace DartScorer.Droid
                     toast = string.Format("{0} sets", selectedItem);
                     selectedSets.Text = selectedItem;
                     numSets = selectedValue;
-                    Toast.MakeText(this, toast, ToastLength.Long).Show();
+                    //Toast.MakeText(this, toast, ToastLength.Long).Show();
                     break;
                 case Resource.Id.legs_per_set_spinner:
                     toast = string.Format("{0} legs per set", selectedItem);
                     selectedLegsPerSet.Text = selectedItem;
                     numLegsPerSet = selectedValue;
-                    Toast.MakeText(this, toast, ToastLength.Long).Show();
+                    //Toast.MakeText(this, toast, ToastLength.Long).Show();
                     break;
                 case Resource.Id.start_score_spinner:
                     toast = string.Format("{0} start", selectedItem);
                     selectedStartScore.Text = selectedItem;
                     startScore = selectedValue;
-                    Toast.MakeText(this, toast, ToastLength.Long).Show();
+                    //Toast.MakeText(this, toast, ToastLength.Long).Show();
                     break;
             }
         }
@@ -111,7 +111,7 @@ namespace DartScorer.Droid
             player2Name = textEditPlayer2Name.Text;
 
             match = new Match(player1Name, player2Name, numSets, numLegsPerSet, startScore);
-            Toast.MakeText(this, matchDetails(), ToastLength.Long).Show();
+            //Toast.MakeText(this, matchDetails(), ToastLength.Long).Show();
             var intent = new Intent(this, typeof(PlayMatchActivity));
             Bundle bundle = new Bundle();
             intent.PutExtra("matchDetails", JsonConvert.SerializeObject(match));

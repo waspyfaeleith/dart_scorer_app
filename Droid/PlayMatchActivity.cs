@@ -111,11 +111,11 @@ namespace DartScorer.Droid
                 messageThrower.Text = "";
             }
 
-            if (match.Game.Winner() != null)
-            {
-                messageWinner.Text = match.Game.Winner().Name;
-            }
-            else
+            //if (match.Game.Winner() != null)
+            //{
+            //    messageWinner.Text = match.Game.Winner().Name;
+            //}
+            //else
             {
                 messageWinner.Text = match.Message;
             }

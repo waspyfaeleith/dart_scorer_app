@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace DartScorer
 {
@@ -39,6 +40,7 @@ namespace DartScorer
             this.scores = new List<int>();
         }
 
+        [JsonConstructor]
         public Player(String name, int startScore)
         {
             this.name = name;

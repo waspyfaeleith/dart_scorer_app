@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace DartScorer
 {
@@ -48,10 +49,10 @@ namespace DartScorer
             set { this.player2 = value; }
         }
 
-        public Game() {
+        //public Game() {
             
-        }
-
+        //}
+        [JsonConstructor]
         public Game(int startScore, Player player1, Player player2, int sets, int legsPerSet)
         {
             this.startScore = startScore;
