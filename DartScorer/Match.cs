@@ -8,10 +8,11 @@ namespace DartScorer
         private int sets;
         private int legsPerSet;
         private int startScore;
-        List<Player> players;
+        //List<Player> players;
         Player setThrower;
         Player legThrower;
         Game game;
+        String message;
 
         public Game Game
         {
@@ -19,13 +20,19 @@ namespace DartScorer
             set { this.game = value; }
         }
 
-        public List<Player> Players
+        //public List<Player> Players
+        //{
+        //    get { return this.players; }
+        //}
+
+        public Match() 
         {
-            get { return this.players; }
+            //this.players = new List<Player>();
         }
 
-        public Match() {
-            
+        public String Message 
+        {
+            get { return this.message;  }    
         }
 
         public Match(String player1Name, String player2Name, int sets, int legsPerSet, int startScore)
@@ -35,14 +42,15 @@ namespace DartScorer
             this.sets = sets;
             this.legsPerSet = legsPerSet;
             this.startScore = startScore;
-            this.players = new List<Player>();
-            this.players.Add(player1);
-            this.players.Add(player2);
+            //this.players = new List<Player>();
+            //this.players.Add(player1);
+            //this.players.Add(player2);
 
-            this.game = new Game(startScore, players, sets, legsPerSet);
-
+            //this.game = new Game(startScore, players, sets, legsPerSet);
+            this.game = new Game(startScore, player1, player2, sets, legsPerSet);
             this.setThrower = player1;
             this.legThrower = player1;
+            this.message = legThrower.Name + " to throw";
         }
 
         public int SetsNeededToWinMatch()
@@ -85,7 +93,9 @@ namespace DartScorer
         {
             game.Player1.ResetScores(this.startScore);
             game.Player2.ResetScores(this.startScore);
-            game = new Game(startScore, players, sets, legsPerSet);
+            //game = new Game(startScore, players, sets, legsPerSet);
+            game = new Game(startScore, game.Player1, game.Player2, sets, legsPerSet);
+            this.message = game.Thrower.Name + " to throw";
         }
 
         public void NewLeg()
@@ -93,14 +103,27 @@ namespace DartScorer
             this.NewGame();
             game.Thrower = this.SwitchThrower(this.legThrower);
             this.legThrower = game.Thrower;
+            this.message = "Next leg, " + game.Thrower.Name + " to throw";
         }
 
         private void Turn(Player player, int score)
         {
 
             Throw playerThrow = new Throw(score);
-
-            player.ThrowDarts(playerThrow);
+            if (playerThrow.IsValid())
+            {
+                if (player.IsBust(playerThrow))
+                {
+                    this.message = "Bust!";
+                }
+                else
+                {
+                    player.ThrowDarts(playerThrow);
+                }
+                this.game.ChangeThrower();
+            } else {
+                this.message = "Invalid Score Entered!";
+            }
         }
 
         private Player SwitchThrower(Player thrower)
@@ -141,18 +164,20 @@ namespace DartScorer
             {
                 if (this.MatchWon())
                 {
-                    // TODO: game shot and the MATCH
+                    gameWon("match");
                     return;
                 }
                 else
                 {
                     // TODO: game shot and the SET
+                    gameWon("set");
                     this.NewSet();
                 }
             }
             else
             {
                 // TODO: game shot and the LEG
+                gameWon("leg");
                 this.NewLeg();
             }
         }
@@ -175,14 +200,21 @@ namespace DartScorer
                         if (game.Thrower.IsOnAFinish())
                         {
                             //TODO: set up '... you require ...'
+                            this.message = game.Thrower.Name + ", you require " + game.Thrower.CurrentScore;
                         }
                         else
                         {
                             //TODO: set up '... to throw"
+                            this.message = game.Thrower.Name + " to throw";
                         }
                     }
                 }
             }
+        }
+
+        private void gameWon(String msg)
+        {
+            this.message = "Game Shot, and the " + msg;
         }
     }
 }

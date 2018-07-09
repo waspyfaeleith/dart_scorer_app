@@ -20,7 +20,7 @@ namespace DartScorer
             this.score = score;
         }
 
-        public bool isValid()
+        public bool IsValid()
         {
             int[] validHighScores = { 180, 177, 174, 171, 170, 168, 167, 165, 164 };
             int pos = Array.IndexOf(validHighScores, this.score);

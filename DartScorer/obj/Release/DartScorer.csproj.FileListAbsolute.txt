@@ -1,0 +1,4 @@
+/Users/sandy/DartScorer/DartScorer/bin/Release/DartScorer.dll
+/Users/sandy/DartScorer/DartScorer/obj/Release/DartScorer.csprojResolveAssemblyReference.cache
+/Users/sandy/DartScorer/DartScorer/obj/Release/DartScorer.csproj.CoreCompileInputs.cache
+/Users/sandy/DartScorer/DartScorer/obj/Release/DartScorer.dll

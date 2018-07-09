@@ -1,0 +1,14 @@
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/DartScorer.Droid.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/DartScorer.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/Java.Interop.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/Mono.Android.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/mscorlib.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/Newtonsoft.Json.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Core.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Xml.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Runtime.Serialization.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Data.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Numerics.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/System.Xml.Linq.dll
+/Users/sandy/DartScorer/Droid/obj/Release/android/assets/Mono.Security.dll

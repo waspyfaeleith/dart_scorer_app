@@ -52,13 +52,13 @@ namespace DartScorer
             
         }
 
-        public Game(int startScore, List<Player> players, int sets, int legsPerSet)
+        public Game(int startScore, Player player1, Player player2, int sets, int legsPerSet)
         {
             this.startScore = startScore;
             this.sets = sets;
             this.legsPerSet = legsPerSet;
-            this.player1 = players[0];
-            this.player2 = players[1];
+            this.player1 = player1;
+            this.player2 = player2;
             this.thrower = player1;
         }
 

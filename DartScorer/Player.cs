@@ -56,7 +56,7 @@ namespace DartScorer
 
         public void ThrowDarts(Throw t)
         {
-            if (t.isValid() && !IsBust(t))
+            if (t.IsValid() && !IsBust(t))
             {
                 this.currentScore -= t.Score;
                 this.scores.Add(this.currentScore);

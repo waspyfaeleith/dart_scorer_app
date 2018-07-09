@@ -117,7 +117,7 @@ namespace DartScorer.Droid
             }
             else
             {
-                messageWinner.Text = "";
+                messageWinner.Text = match.Message;
             }
 
             enterScoreText.Text = "";

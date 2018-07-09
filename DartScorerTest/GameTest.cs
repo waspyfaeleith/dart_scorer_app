@@ -17,10 +17,10 @@ namespace DartScorerTests
         {
             player1 = new Player("Jack", 501);
             player2 = new Player("Victor", 501);
-            List<Player> players = new List<Player>();
-            players.Add(player1);
-            players.Add(player2);
-            game = new Game(501, players, 3, 5);
+            //List<Player> players = new List<Player>();
+            //players.Add(player1);
+            //players.Add(player2);
+            game = new Game(501, player1, player2, 3, 5);
         }
 
         [Test()]
@@ -39,7 +39,7 @@ namespace DartScorerTests
         public void TestGameCanSwitchThrowerToPlayer2()
         {
             game.ChangeThrower();
-            Assert.AreEqual(player2, game.Thrower);
+            Assert.AreEqual(player2.Name, game.Thrower.Name);
         }
 
         [Test()]
